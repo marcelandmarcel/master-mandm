@@ -1,0 +1,159 @@
+a {
+    color: #111111;
+    text-decoration: none;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+button, body{
+  font-family: "Dosis", Georgia, Serif;
+  font-weight: 300;
+  background-color: #FFFFFD;
+}
+
+h1{
+  letter-spacing: 0.1em;
+}
+
+p>span{
+  letter-spacing: 0.1em;
+}
+
+input, textarea, select{
+  font-family: "Dosis", Georgia, Serif;
+}
+
+.red-link{
+  color: #b50000;
+}
+
+.main-content{
+  padding-top: 80px;
+}
+
+#flash-message{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+
+
+.social-login{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.logged-img{
+  border-radius: 30px;
+  height:30px;
+  width: 30px;
+  z-index: 100;
+  position: relative;
+  /*top: 10px;*/
+  left: 5px;
+}
+
+.btn-facebook{
+  margin:3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #385593;
+  border-color: #232323;
+  font-family: "Dosis", Georgia, Serif;
+
+}
+.btn-facebook:hover{
+  background-color: #385593;
+  color: #efefef;
+  border-color: #385593;
+}
+
+.btn-google{
+  margin:3px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #b91c29;
+  border-color: #232323;
+  font-family: "Dosis", Georgia, Serif;
+
+}
+.btn-google:hover{
+  background-color: #b91c29;
+  color: #efefef;
+  border-color: #b80709;
+}
+
+
+.jumbotron{
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.active{
+  font-size: 100%;
+  text-overflow: visible;
+  overflow-y: visible;
+}
+
+
+.btn-marcel{
+  /*color: rgba(255, 255, 255, 5);*/
+  color: #b50405;
+  border-width: 1.6px;
+  background-color: #ffffff;
+  border-color: #c83443;
+  font-family: "Dosis", Georgia, Serif;
+  font-size: 110%;
+  padding: 9.5px 21px;
+  border-radius: 20px;
+}
+
+.btn-marcel:hover{
+  background-color: rgba(124, 124, 124, 0.0);
+  color: #ff891f;
+  border-color: #ff891f;
+}
+
+.mmlink{
+  color: #b50000;
+}
+.mmlink:hover{
+  color: #ea0000;
+  font-stretch: all;
+}
+
+.jauge {
+    position: relative;
+}
+/* Remplissage de bas en haut */
+.jauge-vin {
+    transition: all 0.3s linear 0s;
+    background-color: #b80709;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.jauge:hover .jauge-vin {
+    height: 100%;
+}
+
+.about-partial{
+  text-overflow: ellipsis;
+  height: 150px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.p-justify-marcel{
+  text-align: justify;
+}
+
+@media only screen and (max-width: 420px) {
+
+       body { font-size: 0.8em; }
+
+    }

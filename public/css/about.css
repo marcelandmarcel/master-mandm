@@ -1,0 +1,36 @@
+
+
+.image-about{
+	width: 100%;
+	padding: 5%;	
+}
+
+
+.h2marcel{
+	font-size: 100%;
+	padding-top: 5px;
+	padding-left: 2px;
+	text-align: justify;
+		margin-bottom: 10px;
+}
+
+.h3marcel{
+	font-size: 100%;
+	color: #272727;
+	padding-left: 6px;
+	text-align: justify;
+}
+
+.centerh{
+	margin-left: 15px;
+}
+
+.testmm{
+	display: inline-block;
+	max-width: 50%;
+}
+
+.about-title{
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
