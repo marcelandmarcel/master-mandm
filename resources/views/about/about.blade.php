@@ -13,13 +13,41 @@
 	<h1>About us</h1>
 </div>
 
+
+<div class="h2marcel text-center">
+	Marcel&marcel <img src="/storage/pages/logo.svg" height="30px" style="margin-top: -15px"> is a 
+	<span style="font-weight: 500">curator</span> for wines of <span style="font-weight: 500">confidential</span> production with exclusivity. 
+</div>
+
+
+<div class="image-shop-long">
+		<img src="/storage/pages/shop-long.jpg" class="image-long ml-auto">
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+	<h2>Expertise</h2>
+<div class="row">
+
+	<div class="col-12 col-md-6 col-lg-6 image-about">
+		<div class="h2marcel">
+			Over 20 years, our Oenologist - former professor, former buyer, former sommelier of famous places - has developed a rare knowledge of the french vineyards, 
+		</div>
+		<div class="centerh h3marcel col-12">
+			We also built a strong and useful network in the french wine Industry. On demand, we can find a specific Cuvée or a rare Vintage.
+		</div>
+	</div>
+	<div class="col-6 col-md-6 col-lg-6">
+		<img src="/storage/pages/founders-mini.jpg" class="ml-auto image-about rounded">
+	</div>
+</div>
+
 <div>
 
-<!--<div class="text-center">
-	<a href="//marcelandmarcel.com/english/wine%20book.html" onclick=""><span class="red-link">See Selection</span></a>
-</div>-->
-
-@include('about.Partial')
+	@include('about.Partial')
 
 </div>
 
@@ -58,7 +86,7 @@
 
 </div>
 
-<div class="text-center">
+<div class="text-center jumbotron">
 	<a href="//marcelandmarcel.com/english/wine%20book.html" onclick=""><span class="red-link">See Selection</span></a>
 </div>
 
