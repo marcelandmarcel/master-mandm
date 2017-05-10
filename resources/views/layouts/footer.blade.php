@@ -12,7 +12,7 @@
       
     <div class="text-center">
 
-      @include('layouts.social', ['url' => 'http://www.marcelandmarcel.com/'])
+      @include('layouts.social', ['url' => 'marcelandmarcel'])
     
     </div>
 

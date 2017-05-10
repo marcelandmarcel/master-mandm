@@ -1,12 +1,8 @@
 <div class="d-inline-block" style="padding: 0;">
     <div class="social-buttons d-inline-block">
-	    <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode($url) }}"
+	    <a href="https://www.facebook.com/{{ urlencode($url) }}"
 	       target="_blank" class="d-inline socials">
 	       <i class="voyager-facebook"></i>
-	    </a>
-	    <a href="https://twitter.com/intent/tweet?url={{ urlencode($url) }}"
-	       target="_blank" class="d-inline socials">
-	       <i class="voyager-twitter"></i>
 	    </a>
 
 
@@ -15,6 +11,6 @@
     </div>
 
     <a href="mailto:contact@marcelandmarcel.com" class="socials"><i class="voyager-mail"></i> </a>
-
+	<a href="tel:0031629587330" class="socials"><i class="voyager-telephone"></i></a>
 
 </div>

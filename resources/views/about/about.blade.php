@@ -15,6 +15,9 @@
 
 <div>
 
+<!--<div class="text-center">
+	<a href="//marcelandmarcel.com/english/wine%20book.html" onclick=""><span class="red-link">See Selection</span></a>
+</div>-->
 
 @include('about.Partial')
 

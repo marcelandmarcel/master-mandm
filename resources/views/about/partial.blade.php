@@ -1,6 +1,6 @@
 	
 
-	<div class="h2marcel">
+	<div class="h2marcel text-center">
 	Marcel&marcel <img src="/storage/pages/logo.svg" height="30px" style="margin-top: -15px"> is a 
 	<span style="font-weight: 500">curator</span> for wines of <span style="font-weight: 500">confidential</span> production with exclusivity. 
 	</div>

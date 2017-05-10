@@ -9,14 +9,18 @@
 
 @section('content')
 
+<div class="text-center jumbotron">
+  <h1>Wine tasting Events</h1>
+</div>
 
-    <section class="jumbotron text-center winbook-jumb">
-      <div class="container">
-        <h2>Events</h2>
+<div class="event-intro text-center">
+         <p class="p-justify-marcel">
 
-        <p class="p-justify-marcel">
+         - On our monthly <span style="font-weight: 500">Marcels event</span>, we invite in the shop our customers to give their reviews on the selection and new references to come. It is a good occasion to taste well crafted food and wines in a friendship atmosphear. <span style="font-weight: 500">You'll also have the chance to win one of the 2 mystery bottles...</span>
+         </p>
+         <br>
+         <p class="p-justify-marcel">
           - Our "Marcel&marcel Atelier" chaired by a sommelier offers a rich experience over wine tasting, pairing and discovering.
-          We humbly try to bring to your attention the very best rare wine productions at fair price.
         </p>
 
 
@@ -40,12 +44,10 @@
           </p>   
 
         @endif
-      
-      </div>
-    </section>
+</div>
 
 <!-- upcoming events -->
-<h1>Upcoming</h1>
+<h2>Upcoming</h2>
 
   <div class="album jumbotron">
 
@@ -102,7 +104,7 @@
 
 
 <!-- upcoming events -->
-<h1>Past</h1>
+<h2>Past</h2>
 
     <div class="album jumbotron">
       <div class="container"> 
@@ -167,7 +169,7 @@
 
 <script>
 
-$('.login-fadeout').fadeOut( 5000, "linear");
+//$('.login-fadeout').fadeOut( 5000, "linear");
 
 </script>
 
